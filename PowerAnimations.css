@@ -14,11 +14,11 @@
   }
 }
 
-/* Buttons */
+/* User Modal Buttons */
 .button-14-BFJ:hover .contents-18-Yxp {
-  animation: Buttons 0.5s normal ease;
+  animation: UserModalButtons 0.5s normal ease;
 }
-@keyframes Buttons {
+@keyframes UserModalButtons {
   0% {
     transform: translateY(0px);
   }
@@ -28,4 +28,9 @@
   100% {
     transform: translateY(0px);
   }
+}
+
+/* Settings Button */
+.button-14-BFJ[aria-label="User Settings"]:hover .contents-18-Yxp {
+  animation: rotate 3s infinite;
 }
