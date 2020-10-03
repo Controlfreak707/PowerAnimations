@@ -111,6 +111,7 @@
 .iconWrapper-2OrFZ1[role="switch"]:hover {
   animation: Notif 1.5s infinite ease-in-out;
 }
+
 @keyframes Notif {
   0% {
     transform: rotate(-10deg);
@@ -1248,6 +1249,21 @@
 .button-14-BFJ:hover .contents-18-Yxp {
   animation: UserModalButtons 0.5s normal ease;
 }
+
+.container-3baos1 .noWrap-3jynv6 {
+  width: 100px;
+  opacity: 1;
+}
+
+.button-14-BFJ {
+  transition: 0.2s;
+}
+
+.button-14-BFJ:hover {
+  padding-bottom: 0px;
+  transition: 0.2;
+}
+
 @keyframes UserModalButtons {
   0% {
     transform: translateY(0px);
