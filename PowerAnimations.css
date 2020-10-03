@@ -17,12 +17,16 @@
   }
 }
 
-/* Modal */
-div[role="dialog"] {
-  animation: Modal 1000ms linear both;
+/* Modal & Context Menu*/
+[role="dialog"] {
+  animation: Jelly 1000ms linear both;
 }
 
-@keyframes Modal {
+[role="menu"] {
+  animation: Jelly 1000ms linear both;
+}
+
+@keyframes Jelly {
   0% {
     transform: matrix3d(0.5, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   }
