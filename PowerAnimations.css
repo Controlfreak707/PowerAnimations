@@ -1,3 +1,22 @@
+/* Ping */
+.numberBadge-2s8kKX {
+  animation: animatedPing 1.5s infinite ease-in-out;
+}
+
+@keyframes animatedPing {
+  0% {
+    transform: rotate(-15deg);
+  }
+
+  50% {
+    transform: rotate(15deg) scale(1.2);
+  }
+
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
 /* Channel Mute button */
 .iconWrapper-2OrFZ1[role="switch"]:hover {
   animation: Notif 1.5s infinite ease-in-out;
