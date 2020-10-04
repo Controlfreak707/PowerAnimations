@@ -1,4 +1,4 @@
-/* Ping */
+/* Pings */
 .numberBadge-2s8kKX {
   animation: animatedPing 1.5s infinite ease-in-out;
 }
@@ -17,12 +17,12 @@
   }
 }
 
-/* Modal & Context Menu*/
+/* Modals*/
 [role="dialog"] {
-  animation: Jelly 1000ms linear both;
+  animation: Modal 1000ms linear both;
 }
 
-@keyframes Jelly {
+@keyframes Modal {
   0% {
     transform: matrix3d(0.5, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   }
