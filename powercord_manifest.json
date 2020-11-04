@@ -3,6 +3,6 @@
   "version": "0.7.0",
   "author": "Liam The Protogen#2501",
   "license": "MIT",
-  "theme": "PowerAnimations.css",
+  "theme": "theme.css",
   "description": "Adds animations to lots of things."
 }
