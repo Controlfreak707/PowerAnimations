@@ -103,6 +103,31 @@
   }
 }
 
+/* Profile Modal */
+.headerPlaying-j0WQBV,
+.topSectionPlaying-1J5E4n {
+  z-index: 1;
+  background: url(https://cdn.naila.bot/Discord/playing-background.svg), #7289da;
+}
+
+.headerSpotify-zpWxgT,
+.topSectionSpotify-1lI0-P {
+  z-index: 1;
+  background: url(https://cdn.naila.bot/Discord/playing-background.svg), #1db954;
+}
+
+.topSectionPlaying-1J5E4n,
+.topSectionSpotify-1lI0-P {
+  animation: Profile 15s infinite ease-in-out;
+  background-size: 50%;
+}
+
+@keyframes Profile {
+  50% {
+    background-position: bottom center;
+  }
+}
+
 /* Channel Mute button */
 .iconWrapper-2OrFZ1[role="switch"]:hover {
   animation: Notif 1.5s infinite ease-in-out;
