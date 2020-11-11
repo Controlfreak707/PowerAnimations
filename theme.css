@@ -1935,7 +1935,7 @@
     );
   }
   12.91% {
-    clip-path: inset(0px 0px 6px 0px);
+    clip-path: inset(0px 0px 8px 0px);
     transform: matrix3d(
       -0.104,
       -1.259,
@@ -1956,7 +1956,7 @@
     );
   }
   17.22% {
-    clip-path: inset(0px 0px 6px 0px);
+    clip-path: inset(0px 0px 8px 0px);
     transform: matrix3d(
       -0.186,
       -1.26,
@@ -1977,7 +1977,7 @@
     );
   }
   28.33% {
-    clip-path: inset(0px 0px 6px 0px);
+    clip-path: inset(0px 0px 8px 0px);
     transform: matrix3d(
       -0.041,
       -1.254,
@@ -1998,7 +1998,7 @@
     );
   }
   39.44% {
-    clip-path: inset(0px 0px 6px 0px);
+    clip-path: inset(0px 0px 8px 0px);
     transform: matrix3d(
       0.012,
       -1.248,
@@ -2019,7 +2019,7 @@
     );
   }
   61.66% {
-    clip-path: inset(0px 0px 6px 0px);
+    clip-path: inset(0px 0px 8px 0px);
     transform: matrix3d(
       -0.001,
       -1.25,
@@ -2040,11 +2040,11 @@
     );
   }
   83.98% {
-    clip-path: inset(0px 0px 6px 0px);
+    clip-path: inset(0px 0px 8px 0px);
     transform: matrix3d(0, -1.25, 0, 0, 1.25, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   }
   100% {
-    clip-path: inset(0px 0px 6px 0px);
+    clip-path: inset(0px 0px 8px 0px);
     transform: matrix3d(0, -1.25, 0, 0, 1.25, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   }
 }
